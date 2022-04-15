@@ -490,7 +490,10 @@ button:focus {
 
     #timeline-divider {
         top: 10%;
-        left: 2%;
+       left: 3.8%;
+        
+    }
+    .timeline-divider{
     }
 
     #contact-form {
@@ -514,7 +517,7 @@ button:focus {
     	font-size: 1rem;
     }
     .course-heading{
-        font-size: 3 rem;
+        font-size: 2.5 rem;
     }
 
 
