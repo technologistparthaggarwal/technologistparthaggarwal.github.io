@@ -495,11 +495,11 @@ button:focus {
         margin-left: 0%;
     }
 
-    #contact-person-details {
+    .contact-person-details {
         width: 100%;
     }
 
-    #my-details {
+    .my-details {
         width: 100%;
         display: block;
     }
