@@ -497,11 +497,12 @@ button:focus {
 
     .contact-person-details {
         width: 100%;
+        float: left;
     }
 
     .my-details {
         width: 100%;
-        display: block;
+        
     }
 
     #contact-form {
@@ -514,7 +515,11 @@ button:focus {
     .course-heading{
         font-size: 1.0rem;
     }
-
+    .my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size:0.8rem;
+}
 
 }
 
