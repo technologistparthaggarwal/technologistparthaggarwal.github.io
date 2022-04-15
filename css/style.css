@@ -498,14 +498,14 @@ button:focus {
 
     .contact-person-details {
         width: 100%;
-       float: left;
-    }
-
+      margin-left: 10%;
+     }
+    
     .my-details {
         width: 100%;
     }
     .my-details p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #contact-form {
