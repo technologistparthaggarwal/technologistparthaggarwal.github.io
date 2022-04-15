@@ -497,7 +497,7 @@ button:focus {
 
     .contact-person-details {
         width: 100%;
-        float: left;
+       
     }
 
     .my-details {
@@ -518,7 +518,7 @@ button:focus {
     .my-details-info-container {
     margin-left: 0px;
     color: #d9dcdd;
-    font-size:xx-small;
+    font-size:18px;
 }
 
 }
