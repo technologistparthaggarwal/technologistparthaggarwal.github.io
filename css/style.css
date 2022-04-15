@@ -439,7 +439,7 @@ button:focus {
 }
 .my-details{
 	float: left;
-	width: 50%;
+	width: 100%;
 	margin-left: 6%;
 }
 .my-details-info-container {
@@ -488,12 +488,9 @@ button:focus {
         left: -9.3% !important;
     }
 
-    #timeline-divider {
-        
-       left: 3.8%;
-        
+    .timeline-divider{
+        left: 3.8%;
     }
-
     #contact-form {
         margin-left: 0%;
     }
