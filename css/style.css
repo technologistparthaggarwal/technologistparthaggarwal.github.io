@@ -496,7 +496,7 @@ button:focus {
     }
 
     #contact-person-details {
-        display: block;
+        width: 100%;
     }
 
     #my-details {
