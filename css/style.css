@@ -513,6 +513,9 @@ button:focus {
     .about-me{
     	font-size: 1rem;
     }
+    .course-heading{
+        font-size: 4 rem;
+    }
 
 
 }
