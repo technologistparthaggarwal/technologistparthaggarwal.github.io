@@ -514,7 +514,10 @@ button:focus {
     }
     .my-details p {
         font-size: 12px;
-        margin-left: 27px;
+        margin-left: -21px;
+        padding: 17px;
+        overflow-wrap: anywhere;
+       margin-right: 30px;
     }
     #contact-form {
         width: 80%;
