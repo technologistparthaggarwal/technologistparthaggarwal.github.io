@@ -493,11 +493,12 @@ button:focus {
     }
     #contact-form {
         margin-left: 0%;
+        float: left;
     }
 
     .contact-person-details {
         width: 100%;
-       
+       float: left;
     }
 
     .my-details {
