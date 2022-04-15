@@ -502,7 +502,9 @@ button:focus {
 
     .my-details {
         width: 100%;
-        
+    }
+    .my-details p{
+        font-size: 18px;
     }
 
     #contact-form {
@@ -515,11 +517,7 @@ button:focus {
     .course-heading{
         font-size: 1.0rem;
     }
-    .my-details-info-container {
-    margin-left: 0px;
-    color: #d9dcdd;
-    font-size:18px;
-}
+    
 
 }
 
