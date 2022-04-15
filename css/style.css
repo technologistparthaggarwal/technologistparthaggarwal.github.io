@@ -496,7 +496,7 @@ button:focus {
     }
 
     #contact-person-details {
-        flex-wrap: wrap;
+        display: block;
     }
 
     #my-details {
