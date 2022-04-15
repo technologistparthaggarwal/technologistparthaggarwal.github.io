@@ -480,7 +480,7 @@ button:focus {
 
 
     .timeline-box {
-        width: 90%;
+        width: 100%;
         left: 10% !important;
     }
 
@@ -502,28 +502,18 @@ button:focus {
     }
 
     #mydetails {
-        width: 80%;
-        margin: 10%;
+        width: 100%;
+        
     }
 
-    #contact-form-container {
+    #contact-form {
         width: 80%;
         margin: 10%;
     }
     .about-me{
- 	font-size: 1rem;
- 	margin-left: 0%;
- 	}
-  #body-header{
-  	margin: 0px;
-  }
-  .timeline-divider{
-	left: 3.8%;
+    	font-size: 1rem;
     }
-    .course-heading{
-    	font-size: 0.3rem;
-    	overflow: hidden;
-    }
+
 
 }
 
@@ -543,3 +533,143 @@ button:focus {
 
 
 
+/*
+@media only screen and (max-width: 768px) {
+
+html,body{
+    	margin: 0px;
+    	padding: 0px;
+    }	
+    .timeline-box {
+        width: 100%;
+        left: 10% !important;
+    }
+
+    .timeline-box::after {
+        left: -9.3% !important;
+    }
+
+    #timeline-divider {
+        top: 10%;
+        left: 2%;
+    }
+
+    #contact-form {
+        margin-left: 0%;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+    }
+
+   .contact-person-details{
+    	width: 100%;
+    }
+    .mydetails{
+    	width: 100%;
+    }
+
+    .about-me{
+ 	font-size: 1rem;
+ 	
+ 	}
+  #body-header{
+  	margin: 0px;
+  }
+  .timeline-divider{
+	left: 3.8%;
+    }
+    .course-heading{
+    	font-size: 0.1rem;
+    	overflow: hidden;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 600px) {
+    html,body{
+    	margin: 0px;
+    	padding: 0px;
+    	overflow-y:hidden;
+    }
+    .timeline{
+    	width: 85%;
+    }
+    .timeline-box {
+        width: 100%;
+        left: 12% !important;
+    }
+
+    .bars {
+        display: block;
+    }
+    .timeline-box:nth-child(2n)::after{
+    	left: -10%;
+
+    }
+    .timeline-box:nth-child(2n+1)::after{
+    	left: -10%
+    }
+    
+    .nav-menu {
+        display: none;
+    } 
+    .timeline-divider{
+	left: 4%;
+    }
+    .contact-person-details{
+    	width: 100%;
+    }
+    .mydetails{
+    	width: 100%;
+    }
+    .about-me{
+ 	font-size: 1rem;
+ 	float: left;
+ 	}
+  #body-header{
+  	margin: 0px;
+  }
+}*/
