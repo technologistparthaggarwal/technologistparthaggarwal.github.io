@@ -516,9 +516,9 @@ button:focus {
         font-size: 1.0rem;
     }
     .my-details-info-container {
-    margin-bottom: 20px;
+    margin-left: 0px;
     color: #d9dcdd;
-    font-size:small;
+    font-size:xx-small;
 }
 
 }
