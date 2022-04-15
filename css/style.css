@@ -505,7 +505,7 @@ button:focus {
     }
 
     .contact-person-details {
-        width: 100%;
+        margin-left: -3px;
       
      }
     
@@ -514,6 +514,7 @@ button:focus {
     }
     .my-details p {
         font-size: 12px;
+        margin-left: 27px;
     }
     #contact-form {
         width: 80%;
