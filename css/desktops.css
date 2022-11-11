@@ -13,6 +13,7 @@
   }
   .event {
    margin-top: 21rem; 
+   height: auto!important;
 }
 .up-event {
    width: 16rem !important;

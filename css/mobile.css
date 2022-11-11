@@ -9,16 +9,16 @@
    .about-us{
       width: 18rem!important;
       margin-right: 1rem!important;
-      margin-left: -3rem!important;
+      margin-left: 0rem!important;
    }
   .mission{
    width: 18rem!important;
    margin-right: 1rem!important;
-   margin-left: -3rem;
+   margin-left: 0rem;
    }
   .vision{
    width: 18rem;
-   margin-left: -3rem;
+   margin-left: 0rem;
   }
   .up-event-heading{
    margin-left:-15rem!important;
@@ -26,6 +26,7 @@
   .event{
    margin-top: 43rem!important;
    margin-bottom: 0rem!important;
+   height: auto!important;
   }
   .up-card{
    width: 18rem!important;
@@ -34,7 +35,7 @@
   .past-event{
    width: 18rem !important;
     /* border: 2px solid black; */
-    margin-left: -1rem !important;
+    margin-left: 1rem !important;
   }
   .past-card{
       width: 18rem;
@@ -55,7 +56,7 @@
    margin-left:5rem!important;
   }
    .mm{
-      margin-left: 0rem!important;
+      margin-left: -1rem!important;
    }
    
    .name {
