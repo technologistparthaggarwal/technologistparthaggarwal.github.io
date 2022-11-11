@@ -87,9 +87,9 @@ margin-left: 9rem !important;
   
 }
 .up-event{
-  width: 30vw !important;
+  width: 30rem !important;
   /* border: 2px solid black; */
-  margin-left:3vw!important;
+  margin-left:3rem!important;
 
 }
 .mt-n8{
@@ -265,7 +265,7 @@ color: white !important;
     border-radius: 25px !important;
 }
 .head{
-  font-family: 'Courgette', cursive !important;
+  font-family:"Times New Roman", Times, serif;
   color: black !important;
 }
 
@@ -439,7 +439,7 @@ color: white !important;
  
 #gray_bg{
     background-color: #f5f5f5;
-    height: 57rem;
+    height:50rem;
 }
 
 #mssg{
@@ -524,7 +524,7 @@ to {
   height:175vh;
 }
 .vision{
-  width: 16vw;
+  width: 16rem;
 }
 .img{
   height: 21px;

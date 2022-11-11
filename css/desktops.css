@@ -1,0 +1,48 @@
+@media only screen and (min-width:992px) {
+   #info {
+      height: 12rem;
+      margin-left: 1rem;
+   }
+   .about-us {
+      width: 18rem;
+      margin-right: 1rem;
+  }
+  .mission {
+   width: 15rem;
+   margin-right: 1rem;
+  }
+  .event {
+   margin-top: 21rem; 
+}
+.up-event {
+   width: 19rem !important;
+   margin-left: 0rem!important;
+}
+.up-card {
+   width: 21rem;
+}
+.past-event {
+   width: 36rem !important;
+   /* border: 2px solid black; */
+   margin-left: 5rem !important;
+}
+.past-card {
+   width: 16rem;
+}
+#team{
+   margin-top: -9rem!important;
+}
+.team-cont-p {
+   margin-left: -6rem;
+}
+.team-cont-a{
+   margin-left: -3rem!important;
+}
+.name{
+   margin-left: 12rem!important;
+}
+.as{
+   margin-left: 13rem!important;
+}
+
+}
