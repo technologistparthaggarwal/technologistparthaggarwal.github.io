@@ -1,7 +1,7 @@
 @import "../style.css";
 /* // Medium devices (tablets, 768px and up) */
 
-@media only screen and (min-width:760px) and (max-width:992px){
+@media only screen and (min-width:760px) and (max-width:990px){
 #info{
     height:auto !important;
     margin-left: 0rem !important;

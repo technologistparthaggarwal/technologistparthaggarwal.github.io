@@ -71,7 +71,7 @@ margin-left: 9rem !important;
   margin-left: -3rem!important;
 }
 #info{
-  height: 75rem; 
+  height:12rem; 
   margin-left: 14rem; 
 }
 .about-us{
@@ -126,7 +126,7 @@ margin-top: 5rem!important;
     animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 #login{
-  height: 48rem;
+  height: 21rem;
 }
 .login-btn{
   background-image:linear-gradient(90deg, rgba(50,60,189,1) 27%, rgba(64,8,233,1) 50%, rgba(0,212,255,1) 90%); 
@@ -439,6 +439,7 @@ color: white !important;
  
 #gray_bg{
     background-color: #f5f5f5;
+    height: 797px;
 }
 
 #mssg{
@@ -446,7 +447,7 @@ color: white !important;
     color:white;
    display:none; 
 }
-
+.team-cont-p
 .typewriter-text1 {
   	overflow: hidden;
  	animation: typing 6s;
@@ -516,8 +517,8 @@ to {
 	  z-index: 1;
   } */
 .event{
-  margin-bottom: 214rem;
-  margin-top: 234rem;
+  margin-bottom: 0rem;
+  margin-top: 18rem;
 }
 .event-container{
   height:175vh;
@@ -531,14 +532,17 @@ to {
 }
 
 .team-cont-p{
-  margin-top: 3rem!important;
+  margin-top: 0rem!important;
 }
 .team-cont-j{
   margin-top: 0rem!important;
-  margin-left: 0rem!important;
+  margin-left: -3rem!important;
 }
 .team-cont-a{
   margin-top: 0rem!important;
+}
+.team-cont-h{
+  margin-left: 1rem!important;
 }
 .aptech{
   width: 152px; 
