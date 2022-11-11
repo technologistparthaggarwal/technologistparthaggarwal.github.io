@@ -20,7 +20,9 @@
    width: 18rem;
    margin-left: -3rem;
   }
-  
+  .up-event-heading{
+   margin-left:-15rem!important;
+  }
   .event{
    margin-top: 43rem!important;
    margin-bottom: 0rem!important;
