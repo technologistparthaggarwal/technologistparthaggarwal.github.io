@@ -72,7 +72,7 @@ margin-left: 9rem !important;
 }
 #info{
   height:12rem; 
-  margin-left: 14rem; 
+  margin-left: auto !important; 
 }
 .about-us{
   width: 30rem;
@@ -442,7 +442,7 @@ color: white !important;
  
 #gray_bg{
     background-color: #f5f5f5;
-    height:50rem;
+    height:auto!important;
 }
 
 #mssg{
@@ -521,6 +521,7 @@ to {
   } */
 .event{
   margin-bottom: 0rem;
+  height: auto;
   margin-top: 18rem;
 }
 .event-container{
