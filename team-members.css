@@ -1,0 +1,222 @@
+@import 'css/mobile.css';
+
+.card-1{
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3));
+    border-radius: 100%;
+}
+.mt-n9 a:hover {
+    color: white;
+}
+
+
+
+
+
+/* #############
+########################
+
+Branch Counsellor
+
+############## */
+
+.as{
+    background-image: url('./images/AchalSir.jpg');
+    background-size: cover;
+    margin-left: 19.2rem;
+}
+.as:hover .card-1 {
+    display: block;  
+}
+
+
+/* #############
+########################
+
+Faculty Co-ordinator 
+
+############## */
+
+/* Shweta Maam */
+.sm{
+    background-image: url('./images/shweta maam.png');
+    background-size: cover;
+}
+.sm:hover .card-1 {
+    display: block;
+}
+
+/* Monika Maam */
+.mm{
+    background-image: url('./images/monika maam.png');
+    background-size: cover;
+}
+.mm:hover .card-1 {
+    display: block;
+  
+  }
+
+
+/* #############
+########################
+
+Execom 2022-23 
+
+############## */
+/* Vineet Thakur */
+.v{
+    background-image: url('./images/vineet.jpeg');
+    background-size: cover;
+}
+.v:hover .card-1 {
+    display: block;
+  
+  }
+/* Yeshwanth Allam */
+.y{
+    background-image: url('./images/Yashwanth.jpeg');
+   background-size: cover;
+}
+.y:hover .card-1 {
+    display: block;
+  
+  }
+/* Vasu Jain */
+.v-2{
+    background-image: url('./images/vasu.jpeg');
+   background-size: cover;
+}
+.v-2:hover .card-1 {
+    display: block;
+  
+  }
+/* Sameer Rawat */
+.s{
+    background-image: url('./images/sameerrawat.jpeg');
+    background-size: cover;
+}
+.s:hover .card-1 {
+    display: block;
+  
+  }
+/* Anirudh Narang */
+.a-1{
+    background-image: url('./images/Anirudh.jpeg');
+   background-size: cover;
+}
+.a-1:hover .card-1 {
+    display: block;
+  
+  }
+/* Chirag Pawar */
+.c{
+    background-image: url('./images/chirag.jpeg');
+   background-size: cover;
+}
+.c:hover .card-1 {
+    display: block;
+  
+  }
+/* Archita */
+.a-3{
+    background-image: url('./images/Archita.jpg');
+   background-size: cover;
+}
+.a-3:hover .card-1 {
+    display: block;
+  
+  }
+/* Hritik Bharadwaj */
+.h-1{
+    background-image: url('./images/hritik.jpeg');
+   background-size: cover;
+}
+.h-1:hover .card-1 {
+    display: block;
+  
+  }
+/* Khushi Priya */
+.k{
+    background-image: url('./images/khushi Priya.jpeg');
+   background-size: cover;
+}
+.k:hover .card-1 {
+    display: block;
+  
+  }
+/* Parth Aggarwal */
+.par{
+    background-image: url('./images/parth.jpeg');
+   background-size: cover;
+}
+.par:hover .card-1 {
+    display: block;
+  
+  }
+/* Arushi Gupta */
+.a-2{
+    background-image: url('./images/arushi.jpg');
+   background-size: cover;
+}
+.a-2:hover .card-1 {
+    display: block;
+  
+  }
+/* #############
+########################
+
+Junior Council 2022-23 
+
+############## */
+
+/* Prabhjot Singh */
+.prab{
+    background-image: url('./images/prabhjot.jpeg');
+   background-size: cover;
+}
+.prab:hover .card-1 {
+    display: block;
+}
+/* Jai Tyagi */
+.j{
+    background-image: url('./images/jai tyagi.jpeg');
+   background-size: cover;
+}
+.j:hover .card-1 {
+    display: block;
+}
+
+/* Harshit Kaushik */
+.H{
+    background-image: url('./images/harshit.jpeg');
+   background-size: cover;
+   
+}
+
+.H:hover .card-1 {
+    display: block;
+  
+  }
+
+/* Aditya Sharma */
+.a-4{
+    background-image: url('./images/aditya sharma.jpeg');
+   background-size: cover;
+   margin-left: 12rem;
+}
+.a-4:hover .card-1 {
+    display: block;
+  
+  }
+
+/* Anurag Gupta */
+.a-5{
+    background-image: url('./images/anurag gupta.jpeg');
+   background-size: cover;
+}
+.a-5:hover .card-1 {
+    display: block;
+  }

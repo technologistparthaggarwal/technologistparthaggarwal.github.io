@@ -1,0 +1,151 @@
+@import "../style.css";
+
+/* for mobile responsive */
+@media only screen and (min-width:319px) and (max-width:760px) {
+  #info{
+   margin-left: 3rem!important;
+   height: 30rem;
+  }
+   .about-us{
+      width: 18rem!important;
+      margin-right: 1rem!important;
+      margin-left: -3rem!important;
+   }
+  .mission{
+   width: 18rem!important;
+   margin-right: 1rem!important;
+   margin-left: -3rem;
+   }
+  .vision{
+   width: 18rem;
+   margin-left: -3rem;
+  }
+  
+  .event{
+   margin-top: 43rem!important;
+   margin-bottom: 0rem!important;
+  }
+  .up-card{
+   width: 18rem!important;
+   margin-left: -2rem!important;
+  }
+  .past-event{
+   width: 18rem !important;
+    /* border: 2px solid black; */
+    margin-left: -1rem !important;
+  }
+  .past-card{
+      width: 18rem;
+  }
+  #gray_bg{
+   height: 102rem!important;
+  }
+  .as{
+   margin-left: 4.2rem;
+  }
+  .team-cont-achalsir{
+   margin-left: 3rem!important;
+  }
+  .team-cont-shwetamaam{
+   margin-left: 0rem!important;
+  }
+  .team-cont-monicamaam{
+   margin-left:5rem!important;
+  }
+   .mm{
+      margin-left: 0rem!important;
+   }
+   
+   .name {
+    text-align:center;
+   }
+   .btn-ml-n1{
+    margin-left:12rem !important;
+   }
+   .team-img{
+      margin-left: 4.5rem;
+   }
+  .ml-n10{
+     margin-left: 0rem!important;
+  }
+.ml-n7{
+   margin-left: 0rem!important;
+}
+
+.a-4{
+   margin-left: 5rem!important;
+}
+
+.ml-n6{
+   margin-left: 0rem!important;
+}
+.ml-n8{
+   margin-left: 4rem!important;
+}
+.d{
+   margin-left: 0rem!important;
+}
+.ml-n9{
+   margin-left: 4.5rem!important;
+}
+.jay{
+   margin-left: 0rem!important;
+}
+
+.mt-n11{
+   margin-top: 47rem!important;
+}
+
+.sm{
+   margin-left: 4rem!important;
+}
+.w-23{
+   width: 23rem!important;
+}
+div.head{
+   font-size: 40px!important;
+}
+.excom{
+   margin-top: -5.5rem!important;
+}
+
+.harshit-heading{
+   margin-left: 4rem!important;
+}
+.aditya{
+   margin-left:5rem;
+}
+.team-cont-a{
+   margin-top: 4rem!important;
+}
+.anurag{
+   margin-left: 5rem;
+}
+
+.spon{
+   color: white;
+   font-size: 2.4rem!important;
+}
+#collab{
+   margin-top: 2rem!important;
+}
+.collab-heading{
+   font-size: 3.5rem!important;
+}
+#login{
+   height: 5rem!important;
+   margin-bottom: 27rem;
+}
+.login-btn{
+   margin-left: 3rem!important;
+} 
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+
+
+
