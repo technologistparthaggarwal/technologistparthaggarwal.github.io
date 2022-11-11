@@ -1,6 +1,5 @@
 @import 'team-members.css';
 
-@media only screen and (min-width:1200px) {
 :root{
   width: 100%;
   scroll-behavior: smooth;
@@ -37,6 +36,11 @@
   margin-right: 0px;
   width: 30rem;
 
+}
+.event-heading{
+  width:100%;
+  font-style: italic;
+  margin-top:3rem!important;
 }
 .excom{
   margin-top: 0rem!important;
@@ -419,7 +423,6 @@ color: white !important;
 .foot{
     background: black
 }
-}
 @media only screen and (max-width: 600px) {
 	div.connect {
      font-size:20px !important;
@@ -444,7 +447,7 @@ color: white !important;
  
 #gray_bg{
     background-color: #f5f5f5;
-    height:auto!important;
+    /* height:18rem; */
 }
 
 #mssg{
@@ -826,3 +829,4 @@ to {
 
 
 
+}

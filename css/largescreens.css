@@ -1,0 +1,38 @@
+@import "../style.css";
+html{
+width: 100%;
+}
+@media only screen and (min-width:1201px){
+#info{
+    height: 19rem;
+    margin-left:12rem!important;
+}
+#gray_bg{
+    height:58rem;
+}
+    .event{
+    margin-top: 4rem;
+}
+.event-heading{
+margin-top: 0rem!important;
+}
+.up-event{
+    margin-left: 2rem!important;
+}
+.up-card{
+    width: 26rem!important;
+    margin-left: 3rem!important;
+}
+.past-event{
+    width: 38rem!important;
+    margin-left: 2rem!important;
+}
+.past-card{
+    width: 16rem;
+}
+.name{
+    margin-left: 19rem;
+}
+
+
+}
