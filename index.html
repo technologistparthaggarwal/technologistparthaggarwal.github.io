@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css\style.css">
     
 	<script src="https://kit.fontawesome.com/941117414d.js" crossorigin="anonymous"></script>
+ 
+
 </head>
 <body>
     <header id="home">
@@ -52,21 +54,22 @@
 	  		<li><a href="#contact">Contact</li></a>
 	  	</ul>
 	  </nav>
+	  
 	  <div id="social-name-container">
 	  	<div class="text-center">
-        <h1 id="my-name">Parth Aggarwal</h1>
+        <h1 id="my-name">Parth  Aggarwal</ins></h1>
         <ul class="horizontal-list text-center social-icons ">
         	<li>
         		<a href="http://facebook.com/Parthaggarwal2002">
-        		<i class="fab fa-facebook fa-lg"></i></a>
+        		<i class="fab fa-facebook fa-2x"></i></a>
         	</li>
         	<li>
         		<a href="https://www.linkedin.com/in/parth-aggarwal-77b2941b8/">
-        			<i class="fab fa-linkedin fa-lg"></i></a>
+        			<i class="fab fa-linkedin fa-2x"></i></a>
         	</li>
         	<li>
         		<a href="https://www.instagram.com/parth.aggarwal_30/">
-        		<i class="fab fa-instagram fa-lg"></i></a>
+        		<i class="fab fa-instagram fa-2x"></i></a>
         	</li>
         </ul>
         </div>
@@ -74,11 +77,17 @@
     <main>
 	  <section id="about">
 		<div id="profile-image">
-			<img src="images/profile-pic.jpg">
+			<img src="images/profile-pic-1.jpg">
 		</div>
 		<div id="about-me">
-			<p>Ability to translate business requirements into technical solutions. Strong in design and integration with intuitive problem-solving skills. Passionate about implementing and launching new projects. To work for an organization which provides me the opportunity to improve my skills and knowledge to growth along with the organization objective .I am passioante about full stack web development along with other newiest technology like Data Science,Web scapping and many more .I'm eager and passionate programming coder and wanna be a part of something big and wanna contribute to mankind in this contemporary era of computer .I want to  explore, improve, innovate in this new Technological era.</p></div>
-	  </section> 
+			<div class="about-me-para">
+				<h2>Implementing<br> 
+				creative idea's into<br>
+				Technical and <br> 
+				Business<br>	
+			    Oriented Solution</h2>
+			</div>
+		 </section> 
 
 	  <section id="skills">
 	  	<h1 class="section-heading mb7px">
@@ -159,7 +168,7 @@
             		</div>
             		   <h4 class="degree">B.Tech</h4>
             		   <h5 class="course-heading"><em>Bhagwan Parshuram Institute of Technology</em></h5>
-            		   <h6 class="duration">2020-Present</h6>
+            		   <!-- <h6 class="duration">2020-Present</h6> -->
                	</div>
 
             	<div class="timeline-box">             
@@ -169,7 +178,7 @@
             		
             		   <h4 class="degree">12<sup class="superscript">TH</sup></h4>
               		   <h5 class="course-heading"><em>Prudence School</em></h5>
-            		   <h6 class="duration">2019-2020</h6>
+            		   <!-- <h6 class="duration">2019-2020</h6> -->
                	</div>
             	
             	    <div class="timeline-box">
@@ -179,7 +188,7 @@
             		   <h4 class="degree">10<sup class="superscript">TH</sup></h4>
             		   <h5 class="course-heading"><em>Presidium School</em></h5>
             		   
-            		   <h6 class="duration">2017-18</h6>
+            		   <!-- <h6 class="duration">2017-18</h6> -->
                	    </div>
             	<div class="timeline-divider">
             	<div class="timeline-traveller">
@@ -199,7 +208,7 @@
          </h1>
 
 	  	<div id="portfolio-container">
-	  		<div class="portfolio-img-container">
+	  		<div class="portfolio-img-container" id="project-1">
 	  			<a href="https://parthaggarwal30.github.io/technotoss.github.io/">
 	  			<img src="images/upcoming projects.png"></a>
 	  	
@@ -208,11 +217,14 @@
 	  	      </div>
 	     	</div>
             <div class="portfolio-img-container">
-	  		  <img src="images/upcoming projects.png">
+	  		  <img src="images/musicphyi.jfif">
 	  	        <div class="portfolio-details">
-	  		     <p>
-	  		     	Write the details of the project
+	  		     <p style="margin-top: 2rem;margin-right: 3rem;margin-left: 3rem;">
+	  		         User specific music player that helps the user to listen their most favourite songs without downloading and using much less internet
 	  		     </p>
+				 <button class="project-link-button">
+					<a href="https://musicpyi.netlify.app/">musicpyi</a>
+				 </button>
 	  		    </div>	
 	       	</div>
 	    </div>
@@ -231,14 +243,27 @@
 
          </h1>
           	<div class="contact-container">
-          		<div class="contact-person-details"  >
+          		<div class="contact-person-details">
             		<form id="contact-form">
-          			  <input type="text" placeholder="Name" name="Name" required>
-			          <input type="email" placeholder="Email" name="senders-email" required><br><br>
-         			  <input type="text-box" rows="5" cols="40" name="senders-message" placeholder="Message" required><br>
-           			  <button type="submit" id="submit-btn"><span>Contact Me</span></button>
+						<label for="name"></label>
+          			  <input type="text" name="name" placeholder="name" id="name">
+
+						<label for="email"></label><br>
+			          <input type="email" placeholder="email" name="email" id="email"><br><br>
+
+					  <label for="message"></label>
+					  <input type="text-box" name="message" id="message" placeholder="message"><br>
+					  <!-- Submit button -->
+           			  <input type="submit" id="submit" value="Send mail"></button>
 
          		    </form>
+					 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+					 <script type="text/javascript">
+					   emailjs.init('Cq9hzlKP_Zm2X8ndB')
+					 
+					 </script>
+
           		</div>
 
 		        <div class="my-details">
@@ -252,12 +277,12 @@
 		  	         </div>
 		  	        	<div class="my-details-info-container">
 		  	        		<i class="fa-solid fa-mobile-screen-button"></i>
-		  	        	<span>+91 9899770066</span>
+		  	        	<span><a href="tel:+91 9899770066">+91 9899770066</a></span>
 		  	        	</div>
 
 		  	        	<div class="my-details-info-container">
 		  	        	<i class="fa-regular fa-envelope"></i>
-		  	        	<span>Parth.agg2002@gmail.com</span>
+		  	        	<span> <a href="mailto:Parth.agg2002@gmail.com">Parth.agg2002@gmail.com</a></span>
 		  	        </div>
 		        </div>
            </div>
@@ -281,6 +306,13 @@
         </section>
    </main>
 
+
+   <script src="index.js" text="text/javascript"></script>
+
+
+ 
+
+
+
 </body>
- <script src="index.js"></script>
 </html>

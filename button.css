@@ -1,0 +1,31 @@
+.button{
+    height: 57px;
+    width: 57px;
+    background-color: black;
+    border-radius: 12px;
+}
+.button i{
+    color: white;
+    margin: 30px 0 0 21px;
+}
+
+.list i{
+    margin: 21px 0 0 10px;
+}
+li
+{
+    background-color: black;
+    color: white;
+    height: 48px;
+    width: 48px;
+    margin: 3px 0px 3px -37px;
+    border-radius: 12px;
+}
+.display_ul{
+  display:none;
+  list-style-type:none;   
+  margin-top: 21px; 
+}
+.button:hover .display_ul{
+  display:block;
+}

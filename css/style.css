@@ -1,6 +1,12 @@
-html{
-    scroll-behavior: smooth;
+@font-face {
+    font-family: amsterdam;
+    src: url(../Amsterdam.ttf);
 }
+@font-face {
+    font-family: poppinsmedium;
+    src: url(../FontsFree-Net-Poppins-Medium.ttf);
+}
+
 body{
     margin: 0px;
 }
@@ -11,15 +17,15 @@ body::-webkit-scrollbar {
 /*body-header*/
 
 #home{
-    background-image: url(../images/image1.jpg);
-    background-repeat: no-repeat;
-    opacity: 0.8;
+    background-image: url("../images/BG.png");
+    /* background-repeat: no-repeat; */
+    /* opacity: 0.8; */
     height: 65vh;
     /*margin:0px ;*/
     padding-top: 1.2rem;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 /*horizontal-list*/
 .bars{
@@ -99,14 +105,13 @@ body::-webkit-scrollbar {
     /*text-decoration: underline;*/
 }
 .position{
-    position: fixed;
+    position:sticky;
     top: 0;
-    margin-left: 30rem;
-color: black;
+    color: black;
 }
 
 .nav-menu li a{
-    transition: color:0.5s border.: 4s ;
+    transition: color : 0.5s border.: 4s;
 }
 
 /*Name and social-icon*/
@@ -119,6 +124,8 @@ color: black;
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 0.5rem;
+    /* margin-top: 66px; */
+    font-family: amsterdam;
 }
 .social-icons li {
     text-decoration: none;
@@ -130,17 +137,22 @@ color: black;
 .social-icons li a i:hover{
     box-shadow: 0px 0px 12px 4px rgba(230, 196, 196, 0.3);
 }
-section:nth-child(2n){
+/* section:nth-child(2n){
     background-color: #9e9b9b29;
 }
 section:nth-child(2n+1){
  background-color: white;
-}
+} */
 section{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#skills{
+    background-image: url(../images/skills-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .section-heading{
     width: auto;
@@ -153,6 +165,12 @@ section{
     display: inline-block;
     padding-top: 10px;
     margin-right: 0.5rem;
+}
+/* education bg */
+#education{
+    background-image: linear-gradient(rgba(234, 234, 234, 0.76),rgb(227, 227, 227)),url(../images/education-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*timeline*/
 .timeline{
@@ -210,8 +228,6 @@ section{
 .institute-logo{
     position: absolute;
    margin-top: 0px;
-
-    
 }
 
 
@@ -226,14 +242,14 @@ section{
     color:#2857a4;
     text-align: right;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .course-heading{
      margin: 5px 0 0;
     color: #eb822d;
     text-align: right;
     font-weight: 400;
-    font-size: 2 rem;
+    font-size: 1.2rem;
 }
 .duration {
     margin: 5px 0 0;
@@ -308,10 +324,25 @@ vertical-align: middle;
 }
  /*About section*/
  #about{
-    height: auto;
+    height: 66vh;
+    background-image: url("../qoute.png");
     width: 100%;
     position: relative;
- }
+    background-size: cover;
+}
+@keyframes animation{
+    0%  {margin-left: -87rem;}
+    100% {margin-left: -37rem;}
+
+}
+.about-me-para{
+    font-size: 2rem;
+    margin-left: -37rem;
+    margin-top: -21rem;
+    font-family: poppinsmedium;
+    animation-name: animation;
+    animation-duration: 5s;
+} 
  #profile-image{
     display:inline-block;
     height: 14rem;
@@ -370,12 +401,33 @@ vertical-align: middle;
     text-align: center;
     padding: 10px;
  }
+ .project-link-button{
+    height: 48px;
+    width: 147px;
+    font-size: 1.2rem;
+    border-radius: 18px;
+    margin-top: 1.2rem;
+    margin-left: 4.2rem;
+    display: none;
+    text-decoration: none;
+}
+ 
  .portfolio-img-container:hover {
     box-shadow: 0 0 20px #74ADC8;
 }
  .portfolio-img-container:hover .portfolio-details {
     background-color: #80808078;
     color: white;
+}
+.portfolio-img-container:hover .project-link-button {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    display: block;
+}
+.project-link-button a{
+    color: white;
+    text-decoration: none;
 }
 /*Contact me */
 #contact{
@@ -457,14 +509,17 @@ button:focus {
     color: #d9dcdd;
     font-size: 1rem;
 }
-.my-details-info-container span {
+.my-details-info-container a {
     margin-left: 0.4rem;
+    color: #d9dcdd;
 }
 
 .my-details-info-container i {
     color: white;
 }
-
+.my-details-info-container a{
+    text-decoration: none;
+}
 
 
 

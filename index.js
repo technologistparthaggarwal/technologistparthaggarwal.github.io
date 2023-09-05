@@ -3,40 +3,36 @@
 // smooth scolling feature
 
 var navmenu = document.querySelectorAll('.nav-menu a');
-
-for (var i = 0; i < navmenu.length; i++) {
-    navmenu[i].addEventListener('click', function (event) {
+ for( var i=0;i<navmenu.length;i++)
+ {
+    navmenu[i].addEventListener('click',function(event){
         event.preventDefault();
-        var targetid = this.textContent.trim().toLowerCase();
-        var targetsection = document.getElementById(targetid);
-        console.log(targetsection);
-        var targetsectioncoordinate = targetsection.getBoundingClientRect();
-        console.log(targetsectioncoordinate);
-        var interval = setInterval(function () {
-            var targetsectioncoordinate = targetsection.getBoundingClientRect();
-            if (targetsectioncoordinate.top <= 0) {
-                // console.log("clear interval")
-                clearInterval(interval);
-                return;
-            }
-
-            window.scrollBy(0, 50);
-        }  , 20);
+        var targetsection_id = this.textContent.trim().toLowerCase();
+        var targetsection = document.getElementById(targetsection_id);
+        console.log(targetsection); 
         
-        var interval1 = setInterval(function () {
+        var interval = setInterval(function(){
             var targetsectioncoordinate = targetsection.getBoundingClientRect();
-            if (targetsectioncoordinate.top >= 0) {
-                // console.log("clear interval1")
-                clearInterval(interval1);
+        console.log(targetsectioncoordinate);
+            
+            window.scrollBy(0,50);
+            if(targetsectioncoordinate.top <=0 ) 
+            {
+                clearInterval(interval);
+                
                 return;
             }
-    
-            window.scrollBy(0, -50);
-        } , 50);
-       
-    
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                // you're at the bottom of the page or in case the interval is not cleared when it reaches to bottom of the page
+                console.log("contact")
+                clearInterval(interval);
+
+            }
+            
+            
+        },20); 
     });
-}
+ }
 
 // animate skills section
 //check whether the section is skills
@@ -53,7 +49,6 @@ function initialiseBar(bar) {
 for (var bar of progressBars) {
     initialiseBar(bar);
 }
-
 
 
 function fillBar(bar) {
@@ -90,9 +85,34 @@ function checkScroll() {
     }
 }
 
-
-
-window.addEventListener("scroll", checkScroll);
-
 // This event fills the progress bars if they are displayed on the screen when the page is loaded.
-//window.addEventListener("load", checkScroll);
+window.addEventListener("load", checkScroll);
+
+
+
+
+
+
+
+
+// sending mail using email.js
+
+const btn = document.getElementById('submit');
+
+document.getElementById("contact-form").addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'service_hclvq3o';
+   const templateID = 'template_qpxs3ue';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
