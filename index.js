@@ -88,7 +88,7 @@ function checkScroll() {
 
 // This event fills the progress bars if they are displayed on the screen when the page is loaded.
 window.addEventListener("scroll", checkScroll);
-// window.addEventListener("load", checkScroll);
+window.addEventListener("load", checkScroll);
 
 
 
@@ -111,8 +111,8 @@ document.getElementById("contact-form").addEventListener('submit', function(even
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
+      btn.value = 'Contact Me';
+      alert('Thanks for contacting !');
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
