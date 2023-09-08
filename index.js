@@ -58,10 +58,12 @@ function fillBar(bar) {
     var interval = setInterval(function () {
         if (currentWidth >= targetWidth) {
             clearInterval(interval);
+            console.log("current width of bar is" + currentWidth)
             return;
         }
         currentWidth++;
         bar.style.width = currentWidth + '%';
+        
     }, 5);
 
 }
@@ -73,8 +75,7 @@ function checkScroll() {
 
     for (let bar of progressBars) {
         var barCoordinates = bar.getBoundingClientRect();
-        if ((bar.getAttribute("data-visited") == "false") &&
-            (barCoordinates.top <= (window.innerHeight - barCoordinates.height))) {
+        if ((bar.getAttribute("data-visited") == "false") && (barCoordinates.top <= (window.innerHeight - barCoordinates.height))) {
             bar.setAttribute("data-visited", true);
             fillBar(bar);
         } else if (barCoordinates.top > window.innerHeight) {
@@ -86,6 +87,7 @@ function checkScroll() {
 }
 
 // This event fills the progress bars if they are displayed on the screen when the page is loaded.
+window.addEventListener("scroll", checkScroll);
 window.addEventListener("load", checkScroll);
 
 
