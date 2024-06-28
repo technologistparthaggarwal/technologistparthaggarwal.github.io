@@ -554,7 +554,7 @@ button:focus {
     #about{
         height: 48vh;
     }
-    .about-me-para{
+    .about-me-para h2{
         font-size: 1.5rem;
         margin-left: -3rem !important;
         margin-top: -17rem;
