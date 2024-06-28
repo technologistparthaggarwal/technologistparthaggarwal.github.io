@@ -18,11 +18,16 @@ body::-webkit-scrollbar {
 
 #home{
     background-image: url("../images/BG.png");
+    /* background-repeat: no-repeat; */
+    /* opacity: 0.8; */
     height: 65vh;
+    /*margin:0px ;*/
     padding-top: 1.2rem;
+    /* background-position: center; */
     background-size: cover;
+    /* background-attachment: fixed; */
 }
-
+/*horizontal-list*/
 .bars{
     color: white;
     margin: 0;
@@ -97,6 +102,7 @@ body::-webkit-scrollbar {
 .nav-menu li a:hover{
     color: lightgrey;
     border-bottom: 1px solid black;
+    /*text-decoration: underline;*/
 }
 .position{
     position:sticky;
@@ -105,7 +111,7 @@ body::-webkit-scrollbar {
 }
 
 .nav-menu li a{
-    transition: color 0.5s, border 0.4s;
+    transition: color : 0.5s border.: 4s;
 }
 
 /*Name and social-icon*/
@@ -118,6 +124,7 @@ body::-webkit-scrollbar {
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 0.5rem;
+    /* margin-top: 66px; */
     font-family: amsterdam;
 }
 .social-icons li {
@@ -130,6 +137,12 @@ body::-webkit-scrollbar {
 .social-icons li a i:hover{
     box-shadow: 0px 0px 12px 4px rgba(230, 196, 196, 0.3);
 }
+/* section:nth-child(2n){
+    background-color: #9e9b9b29;
+}
+section:nth-child(2n+1){
+ background-color: white;
+} */
 section{
     width: 100%;
     display: flex;
@@ -255,6 +268,8 @@ vertical-align: middle;
 .skills-display
 {
     width: 75%;
+    /*height: 100px;
+    border: 2px solid black;*/
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -273,8 +288,8 @@ vertical-align: middle;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     margin: 25px;
     overflow: hidden;
+    /*border: 2px solid black;*/
 }
-
 /*percentage classes*/
 .eighty-percent{
     width: 85%;
@@ -307,19 +322,13 @@ vertical-align: middle;
 .mb-maroon{
     background-color: maroon;
 }
-
-/*About section*/
-#about{
-    height: auto;
-    min-height: 66vh;
+ /*About section*/
+ #about{
+    height: 66vh;
     background-image: url("../qoute.png");
     width: 100%;
     position: relative;
     background-size: cover;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 @keyframes animation{
     0%  {margin-left: -87rem;}
@@ -333,22 +342,23 @@ vertical-align: middle;
     font-family: poppinsmedium;
     animation-name: animation;
     animation-duration: 5s;
-}
-#profile-image{
-    display: inline-block;
+} 
+ #profile-image{
+    display:inline-block;
     height: 14rem;
     width: 14rem;
-    margin: auto;
+    margin:auto;
     margin-top: -17vh;
-}
-#profile-image img{
+    
+ }
+ #profile-image img{
     height: 100%;
-    width: 100%;
+    width: 100%;  
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 1px 1px 10px 2px lightgrey;
-}
-#about-para{
+ }
+ #about-para{
     padding: 10px;
     width: 70%;
     text-align: justify;
@@ -356,30 +366,31 @@ vertical-align: middle;
     line-height: 28px;
     font-size: 1.1rem;
     margin: auto;
-}
 
-/*portfolio section*/
-#portfolio-container{
+ }
+ /*portfolio section*/
+
+ #portfolio-container{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 50px;
+    padding:0 50px;
     margin-bottom: 20px;
     justify-content: space-between;
-}
-.portfolio-img-container{
+ }
+ .portfolio-img-container{
     max-width: 300px;
     overflow: hidden;
     margin: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-}
-.portfolio-img-container img{
+ }
+ .portfolio-img-container img{
     height: 100%;
     width: 100%;
-}
-.portfolio-details{
+ }
+ .portfolio-details{
     transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
@@ -389,8 +400,8 @@ vertical-align: middle;
     color: transparent;
     text-align: center;
     padding: 10px;
-}
-.project-link-button{
+ }
+ .project-link-button{
     height: 48px;
     width: 147px;
     font-size: 1.2rem;
@@ -400,10 +411,11 @@ vertical-align: middle;
     display: none;
     text-decoration: none;
 }
-.portfolio-img-container:hover {
+ 
+ .portfolio-img-container:hover {
     box-shadow: 0 0 20px #74ADC8;
 }
-.portfolio-img-container:hover .portfolio-details {
+ .portfolio-img-container:hover .portfolio-details {
     background-color: #80808078;
     color: white;
 }
@@ -417,21 +429,22 @@ vertical-align: middle;
     color: white;
     text-decoration: none;
 }
-
 /*Contact me */
 #contact{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: linear-gradient(23deg,#2857a4 27%,#403066 63%);
-    color: white;
+
+height: 100%;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+background-image: linear-gradient(23deg,#2857a4 27%,#403066 63%);
+color: white;
 }
 
 .contact-container{
     float: left;
     height: 100%;
     width: 100%;
+    
 }
 .contact-person-details{
     float: left;
@@ -439,6 +452,7 @@ vertical-align: middle;
     flex-wrap: wrap;
     width: 30%;
     margin-left: 10%;
+
 }
 .contact-section-heading{
     width: auto;
@@ -447,7 +461,7 @@ vertical-align: middle;
 }
 .contact-section-heading span{
     font-size: 40px;
-    color: white;
+    color:white;
     display: inline-block;
     padding-top: 10px;
     margin-right: 0.5rem;
@@ -456,25 +470,28 @@ vertical-align: middle;
     margin-left: 50px;
 }
 
-input[type="submit"]{
-    font-size: 24px;
-    background-color: transparent;
-    border: 2px solid black;
-    color: white;
-    padding: 12px;
-    margin: 10px;
-    margin-top: 30px;
+input[type="submit"]
+{
+font-size: 24px;
+background-color: transparent;
+border:2px solid black;
+color: white;
+padding:12px;
+margin: 10px;
+margin-top:30px ;
 }
-input[type="text"], input[type="email"], input[type="text-box"]{
-    font-size: 20px;
-    background-color: transparent;
-    border: 0px solid white;
-    border-bottom: 2px solid white;
-    line-height: 30px;
-    padding: 21px;
+input[type="text"],input[type="email"],input[type="text-box"]
+{
+font-size: 20px;
+background-color: transparent;
+border:0px solid white;
+border-bottom: 2px solid white;
+line-height: 30px;
+padding: 21px;
 }
-input[type="submit"]:hover{
-    box-shadow: 10px 10px 30px white;
+input[type="submit"]:hover
+{
+box-shadow: 10px 10px 30px white;
 }
 input:focus,
 select:focus,
@@ -504,13 +521,18 @@ button:focus {
     text-decoration: none;
 }
 
-/* Media Queries */
+
+
+
+
+
+
+
 @media only screen and (max-width: 572px) {
-    html, body {
+    html,body{
         margin: 0px;
         padding: 0px;
     }
-
     .timeline-box {
         width: 100%;
         left: 10% !important;
@@ -520,44 +542,16 @@ button:focus {
         display: block;
     }
     
+    
     .nav-menu {
         display: none;
-    }
-
-    .social-name-container {
-        margin-top: 10vh;
-    }
-
-    #my-name {
-        font-size: 2rem;
-    }
-
-    .about-me-para {
-        font-size: 1.5rem;
-        margin-left: 0;
-        margin-top: 10px;
-        text-align: center;
-        animation: none;
-    }
-
-    #profile-image {
-        height: 10rem;
-        width: 10rem;
-    }
-
-    #about-para {
-        width: 90%;
-        font-size: 1rem;
-        line-height: 1.4rem;
-    }
-
-    .about-container {
-        padding: 10px;
-        font-size: 14px;
-    }
+    } 
 }
 
+
 @media only screen and (max-width: 770px) {
+
+
     .timeline-box {
         width: 100%;
         left: 10% !important;
@@ -567,10 +561,9 @@ button:focus {
         left: -9.3% !important;
     }
 
-    .timeline-divider {
+    .timeline-divider{
         left: 3.8%;
     }
-
     #contact-form {
         margin-left: 0%;
         float: left;
@@ -578,46 +571,154 @@ button:focus {
 
     .contact-person-details {
         margin-left: -3px;
-    }
-
+      
+     }
+    
     .my-details {
         width: 100%;
     }
-
     .my-details p {
         font-size: 12px;
         margin-left: -21px;
         padding: 17px;
         overflow-wrap: anywhere;
-        margin-right: 30px;
+       margin-right: 30px;
     }
-
     #contact-form {
         width: 80%;
         margin: 10%;
     }
-
-    .about-me {
+    .about-me{
         font-size: 1rem;
     }
-
-    .course-heading {
-        font-size: 12px;
-        overflow-wrap: anywhere;
+    .course-heading{
+            font-size: 12px;
+    overflow-wrap: anywhere;
     }
+    
+
 }
 
-@media only screen and (max-width: 600px) {
-    html, body {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (max-width: 768px) {
+
+html,body{
         margin: 0px;
         padding: 0px;
-        overflow-y: hidden;
+    }   
+    .timeline-box {
+        width: 100%;
+        left: 10% !important;
     }
 
-    .timeline {
+    .timeline-box::after {
+        left: -9.3% !important;
+    }
+
+    #timeline-divider {
+        top: 10%;
+        left: 2%;
+    }
+
+    #contact-form {
+        margin-left: 0%;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+    }
+
+   .contact-person-details{
+        width: 100%;
+    }
+    .mydetails{
+        width: 100%;
+    }
+
+    .about-me{
+    font-size: 1rem;
+    
+    }
+  #body-header{
+    margin: 0px;
+  }
+  .timeline-divider{
+    left: 3.8%;
+    }
+    .course-heading{
+        font-size: 0.1rem;
+        overflow: hidden;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 600px) {
+    html,body{
+        margin: 0px;
+        padding: 0px;
+        overflow-y:hidden;
+    }
+    .timeline{
         width: 85%;
     }
-
     .timeline-box {
         width: 100%;
         left: 12% !important;
@@ -626,52 +727,31 @@ button:focus {
     .bars {
         display: block;
     }
-
-    .timeline-box:nth-child(2n)::after {
+    .timeline-box:nth-child(2n)::after{
         left: -10%;
-    }
 
-    .timeline-box:nth-child(2n+1)::after {
-        left: -10%;
     }
-
+    .timeline-box:nth-child(2n+1)::after{
+        left: -10%
+    }
+    
     .nav-menu {
         display: none;
+    } 
+    .timeline-divider{
+    left: 4%;
     }
-
-    .timeline-divider {
-        left: 4%;
-    }
-
-    .contact-person-details {
+    .contact-person-details{
         width: 100%;
     }
-
-    .mydetails {
+    .mydetails{
         width: 100%;
     }
-
-    .about-me {
-        font-size: 1rem;
-        float: left;
+    .about-me{
+    font-size: 1rem;
+    float: left;
     }
-
-    .about-me-para {
-        font-size: 1.2rem;
-        margin-left: 0;
-        margin-top: 10px;
-        text-align: center;
-        animation: none;
-    }
-
-    #profile-image {
-        height: 10rem;
-        width: 10rem;
-    }
-
-    #about-para {
-        width: 90%;
-        font-size: 1rem;
-        line-height: 1.4rem;
-    }
-}
+  #body-header{
+    margin: 0px;
+  }
+}*/
