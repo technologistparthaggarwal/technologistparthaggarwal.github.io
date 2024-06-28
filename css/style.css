@@ -548,7 +548,7 @@ button:focus {
 
     @keyframes animation{
         0%  {margin-left: -37rem;}
-        100% {margin-left: -22rem;}
+        100% {margin-left: -2rem;}
     
     }
     .about-me-para{
