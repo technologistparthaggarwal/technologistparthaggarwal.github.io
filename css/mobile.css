@@ -1,264 +1,71 @@
-/* Base Styles */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
 }
 
-.container {
-    padding: 20px;
-    margin: 0 auto;
+.section-heading {
+    padding: 1rem;
 }
 
-.header, .footer {
-    background-color: #f8f9fa;
-    padding: 10px;
-    text-align: center;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.nav {
-    background-color: #007bff;
-    padding: 10px;
-    text-align: center;
-    color: white;
+.portfolio-img-container {
+    width: 48%;
+    margin: 10px;
 }
 
-.nav a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.content {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 20px;
-}
-
-/* About Container */
-.about-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-/* Animation Keyframes */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.about-me {
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
-}
-
-.button {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-
-    .header, .footer {
-        text-align: center;
+@media (max-width: 768px) {
+    body {
         font-size: 14px;
     }
 
-    .nav {
-        display: none; /* Hide navigation for extra small devices */
+    .section-heading {
+        padding: 0.75rem;
     }
 
-    .content {
-        font-size: 14px;
-        line-height: 1.4;
+    #portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 10px;
     }
 
-    .about-container {
-        padding: 10px;
-        font-size: 14px;
+    .portfolio-img-container {
+        width: 48%;
+        margin: 10px;
     }
 
-    .about-me {
-        animation-duration: 1.5s;
-        font-size: 14px;
+    .timeline {
+        width: 90%;
+        margin: 20px auto;
     }
 
-    .button {
-        width: 100%;
-        font-size: 16px;
-        padding: 10px;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-    .container {
-        padding: 15px;
+    .timeline-box {
+        width: 95%;
+        left: 2.5%;
     }
 
-    .header, .footer {
-        text-align: center;
-        font-size: 16px;
+    .timeline-box:nth-child(2n) {
+        left: 5%;
     }
 
-    .nav {
+    .timeline-box:nth-child(2n)::after,
+    .timeline-box:nth-child(2n+1)::after {
+        left: -10%;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .bars {
         display: block;
-        text-align: center;
-        font-size: 14px;
-    }
-
-    .content {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    .about-container {
-        padding: 15px;
-        font-size: 16px;
-    }
-
-    .about-me {
-        animation-duration: 2s;
-        font-size: 16px;
-    }
-
-    .button {
-        width: 80%;
-        font-size: 18px;
-        padding: 12px;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-    .container {
-        padding: 20px;
-    }
-
-    .header, .footer {
-        text-align: left;
-        font-size: 18px;
-    }
-
-    .nav {
-        display: block;
-        font-size: 16px;
-    }
-
-    .content {
-        font-size: 18px;
-        line-height: 1.6;
-    }
-
-    .about-container {
-        padding: 20px;
-        font-size: 18px;
-    }
-
-    .about-me {
-        animation-duration: 2.5s;
-        font-size: 18px;
-    }
-
-    .button {
-        width: 60%;
-        font-size: 20px;
-        padding: 14px;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .container {
-        padding: 25px;
-    }
-
-    .header, .footer {
-        text-align: left;
-        font-size: 20px;
-    }
-
-    .nav {
-        display: block;
-        font-size: 18px;
-    }
-
-    .content {
-        font-size: 20px;
-        line-height: 1.7;
-    }
-
-    .about-container {
-        padding: 25px;
-        font-size: 20px;
-    }
-
-    .about-me {
-        animation-duration: 3s;
-        font-size: 20px;
-    }
-
-    .button {
-        width: 50%;
-        font-size: 22px;
-        padding: 16px;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .container {
-        padding: 30px;
-    }
-
-    .header, .footer {
-        text-align: left;
-        font-size: 22px;
-    }
-
-    .nav {
-        display: block;
-        font-size: 20px;
-    }
-
-    .content {
-        font-size: 22px;
-        line-height: 1.8;
-    }
-
-    .about-container {
-        padding: 30px;
-        font-size: 22px;
-    }
-
-    .about-me {
-        animation-duration: 3.5s;
-        font-size: 22px;
-    }
-
-    .button {
-        width: 40%;
-        font-size: 24px;
-        padding: 18px;
     }
 }
