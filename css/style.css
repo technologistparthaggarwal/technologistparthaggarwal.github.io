@@ -552,11 +552,11 @@ button:focus {
     
     }
     #about{
-        height: 33vh;
+        height: 48vh;
     }
     .about-me-para{
         font-size: 1.5rem;
-        margin-left: -12rem !important;
+        margin-left: -3rem !important;
         margin-top: -17rem;
         font-family: poppinsmedium;
         animation-name: animation;
