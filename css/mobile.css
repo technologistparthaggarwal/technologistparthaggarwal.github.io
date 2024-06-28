@@ -36,6 +36,14 @@ body {
     margin-top: 20px;
 }
 
+/* About Container */
+.about-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
 /* Animation Keyframes */
 @keyframes fadeIn {
     from {
@@ -85,6 +93,11 @@ body {
         line-height: 1.4;
     }
 
+    .about-container {
+        padding: 10px;
+        font-size: 14px;
+    }
+
     .about-me {
         animation-duration: 1.5s;
         font-size: 14px;
@@ -117,6 +130,11 @@ body {
     .content {
         font-size: 16px;
         line-height: 1.5;
+    }
+
+    .about-container {
+        padding: 15px;
+        font-size: 16px;
     }
 
     .about-me {
@@ -152,6 +170,11 @@ body {
         line-height: 1.6;
     }
 
+    .about-container {
+        padding: 20px;
+        font-size: 18px;
+    }
+
     .about-me {
         animation-duration: 2.5s;
         font-size: 18px;
@@ -185,6 +208,11 @@ body {
         line-height: 1.7;
     }
 
+    .about-container {
+        padding: 25px;
+        font-size: 20px;
+    }
+
     .about-me {
         animation-duration: 3s;
         font-size: 20px;
@@ -216,6 +244,11 @@ body {
     .content {
         font-size: 22px;
         line-height: 1.8;
+    }
+
+    .about-container {
+        padding: 30px;
+        font-size: 22px;
     }
 
     .about-me {
