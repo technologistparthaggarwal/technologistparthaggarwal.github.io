@@ -556,7 +556,7 @@ button:focus {
     }
     .about-me-para{
         font-size: 1.5rem;
-        /* margin-left: 22rem; */
+        margin-left: 22rem !important;
         margin-top: -17rem;
         font-family: poppinsmedium;
         animation-name: animation;
