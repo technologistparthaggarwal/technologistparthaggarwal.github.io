@@ -528,7 +528,7 @@ button:focus {
 
 
 
-@media only screen and (max-width: 572px) {
+@media only screen and (max-width: 770px) {
     html,body{
         margin: 0px;
         padding: 0px;
@@ -542,17 +542,24 @@ button:focus {
         display: block;
     }
     
-    
     .nav-menu {
         display: none;
     } 
-}
 
-
-@media only screen and (max-width: 770px) {
-
-
-    .timeline-box {
+    @keyframes animation{
+        0%  {margin-left: -37rem;}
+        100% {margin-left: -22rem;}
+    
+    }
+    .about-me-para{
+        font-size: 1.5rem;
+        margin-left: -22rem;
+        margin-top: -17rem;
+        font-family: poppinsmedium;
+        animation-name: animation;
+        animation-duration: 5s;
+    }
+  .timeline-box {
         width: 100%;
         left: 10% !important;
     }
@@ -588,8 +595,9 @@ button:focus {
         width: 80%;
         margin: 10%;
     }
-    .about-me{
+    .about-me-para{
         font-size: 1rem;
+
     }
     .course-heading{
             font-size: 12px;
