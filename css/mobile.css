@@ -36,6 +36,21 @@ body {
     margin-top: 20px;
 }
 
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.about-me {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
 .button {
     display: block;
     width: 100%;
@@ -70,6 +85,11 @@ body {
         line-height: 1.4;
     }
 
+    .about-me {
+        animation-duration: 1.5s;
+        font-size: 14px;
+    }
+
     .button {
         width: 100%;
         font-size: 16px;
@@ -97,6 +117,11 @@ body {
     .content {
         font-size: 16px;
         line-height: 1.5;
+    }
+
+    .about-me {
+        animation-duration: 2s;
+        font-size: 16px;
     }
 
     .button {
@@ -127,6 +152,11 @@ body {
         line-height: 1.6;
     }
 
+    .about-me {
+        animation-duration: 2.5s;
+        font-size: 18px;
+    }
+
     .button {
         width: 60%;
         font-size: 20px;
@@ -155,6 +185,11 @@ body {
         line-height: 1.7;
     }
 
+    .about-me {
+        animation-duration: 3s;
+        font-size: 20px;
+    }
+
     .button {
         width: 50%;
         font-size: 22px;
@@ -181,6 +216,11 @@ body {
     .content {
         font-size: 22px;
         line-height: 1.8;
+    }
+
+    .about-me {
+        animation-duration: 3.5s;
+        font-size: 22px;
     }
 
     .button {
