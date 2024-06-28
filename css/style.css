@@ -556,8 +556,8 @@ button:focus {
     }
     .about-me-para h2{
         font-size: 1.5rem;
-        margin-left: -3rem !important;
-        margin-top: -17rem;
+        margin-left: 20rem !important;
+        margin-top: 9rem;
         font-family: poppinsmedium;
         animation-name: animation;
         animation-duration: 5s;
