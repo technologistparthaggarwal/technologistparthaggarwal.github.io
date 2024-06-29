@@ -16,10 +16,6 @@ img {
     height: auto;
 }
 
-.portfolio-img-container {
-    width: 48%;
-    margin: 10px;
-}
 
 @media (max-width: 768px) {
     body {
@@ -30,6 +26,24 @@ img {
         padding: 0.75rem;
     }
 
+    @keyframes animation{
+        0%  {margin-left: 12rem !important;}
+        100% {margin-left: 30rem !important;}
+    
+    }
+    #about{
+        height: 48vh;
+    }
+    .about-me-para h2{
+        font-size: 1.5rem!important;
+        margin-left: 12rem !important;
+        margin-top: 9rem;
+        font-family: poppinsmedium;
+        animation-name: animation;
+        animation-duration: 5s;
+    }
+
+
     #portfolio-container {
         display: flex;
         flex-wrap: wrap;
@@ -39,9 +53,15 @@ img {
 
     .portfolio-img-container {
         width: 48%;
-        margin: 10px;
+        margin: 10px 10px 10px 75px;
     }
-
+    .portfolio-link-button{
+        margin-top: -0.8rem;
+        margin-left: .50rem;
+    }
+    .portfolio-details{
+        top: 0;
+    }
     .timeline {
         width: 90%;
         margin: 20px auto;
