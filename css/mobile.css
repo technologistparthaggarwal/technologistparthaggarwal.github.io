@@ -36,7 +36,7 @@ img {
     }
     .about-me-para h2{
         font-size: 1.5rem!important;
-        margin-left: 12rem !important;
+        margin-left: 12rem;
         margin-top: 9rem;
         font-family: poppinsmedium;
         animation-name: animation;
