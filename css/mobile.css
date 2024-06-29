@@ -28,7 +28,7 @@ img {
 
     @keyframes animation{
         0%  {margin-left: -12rem ;}
-        100% {margin-left: 30rem ;}
+        100% {margin-left: -3.5rem ;}
     
     }
     #about{
