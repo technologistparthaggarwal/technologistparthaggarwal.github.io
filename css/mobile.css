@@ -5,6 +5,111 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
+    margin: 0; /* Added margin reset */
+    padding: 0; /* Added padding reset */
+}
+
+.section-heading {
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .section-heading {
+        padding: 0.75rem;
+    }
+
+    @keyframes animation {
+        0%  { margin-left: -12rem; }
+        100% { margin-left: -3.5rem; }
+    }
+
+    #about {
+        height: 48vh;
+    }
+
+    .about-me-para h2 {
+        font-size: 1.5rem !important;
+        margin-left: 30rem;
+        margin-top: 9rem;
+        font-family: poppinsmedium;
+        animation-name: animation;
+        animation-duration: 5s;
+    }
+
+    #portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        margin: 0; /* Ensure no extra margins */
+    }
+
+    .portfolio-img-container {
+        width: 48%;
+        margin: 10px auto; /* Center the images */
+    }
+
+    .portfolio-link-button {
+        margin-top: -0.8rem;
+        margin-left: .50rem;
+    }
+
+    .portfolio-details {
+        top: 0;
+    }
+
+    .timeline {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .timeline-box {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    .timeline-box:nth-child(2n) {
+        left: 5%;
+    }
+
+    .timeline-box:nth-child(2n)::after,
+    .timeline-box:nth-child(2n+1)::after {
+        left: -10%;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+}
+
+
+
+/* General Styles
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
 }
 
 .section-heading {
@@ -88,4 +193,4 @@ img {
     .bars {
         display: block;
     }
-}
+} */
