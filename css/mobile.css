@@ -1,5 +1,6 @@
 /* General Styles */
-body {
+html, body {
+    overflow-x: hidden;
     font-size: 16px;
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -43,9 +44,9 @@ img {
     }
 
     .about-me-para h2 {
-        font-size: 1.5rem !important;
+        font-size: 1.2rem !important;
         margin-left: 30rem;
-        margin-top: 9rem;
+        margin-top: 12rem;
         font-family: poppinsmedium;
         animation-name: animation;
         animation-duration: 5s;
@@ -64,15 +65,33 @@ img {
         margin: 10px auto; /* Center the images */
     }
 
-    .portfolio-link-button {
-        margin-top: -0.8rem;
-        margin-left: .50rem;
+    #profile-image{
+        margin-top: -6vh!important;
+    }
+    #about-me{
+        margin-top: -3vh;
+    }
+    .portfolio-details p{
+        margin-top: 0rem !important;
+        margin-right: 0rem !important;
+        margin-left: 0rem !important;
+    }
+    .project-link-button {
+        margin-top: -0.8rem !important;
+        margin-left: 0rem !important;
+
     }
 
     .portfolio-details {
         top: 0;
     }
 
+    #project-2{
+        margin-top: 0rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        font-size: 12px;
+    }
     .timeline {
         width: 90%;
         margin: 20px auto;
@@ -100,7 +119,7 @@ img {
         display: block;
     }
 }
-
+  
 
 
 /* General Styles
