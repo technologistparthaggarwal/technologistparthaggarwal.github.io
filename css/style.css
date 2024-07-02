@@ -253,9 +253,9 @@ section{
 }
 .duration {
     margin: 5px 0 0;
-    color: #9e9b9b;
+    color: #7c7a7a;
     font-weight: 100;
-    color: grey;
+    color: rgb(61, 60, 60);
     font-size: 1rem;
 }
 /*skills section*/
