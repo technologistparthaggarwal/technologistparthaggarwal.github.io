@@ -33,14 +33,16 @@ img {
     .section-heading {
         padding: 0.75rem;
     }
-
+    .section-heading span {
+        font-size: 30px;
+    }
     @keyframes animation {
         0%  { margin-left: -12rem; }
         100% { margin-left: -3.5rem; }
     }
 
     #about {
-        height: 48vh;
+        height: 48vh!important;
     }
 
     .about-me-para h2 {
@@ -52,6 +54,9 @@ img {
         animation-duration: 5s;
     }
 
+    #work-experience{
+        height: 150vh;
+    }
     #portfolio-container {
         display: flex;
         flex-wrap: wrap;
@@ -94,7 +99,12 @@ img {
     }
     .timeline {
         width: 90%;
-        margin: 20px auto;
+        margin: -57px 20px auto;
+    }
+
+    .timeline-logo{
+        margin-left: -30px;
+        width: 111px;
     }
 
     .timeline-box {
@@ -106,17 +116,39 @@ img {
         left: 5%;
     }
 
-    .timeline-box:nth-child(2n)::after,
+    .timeline-box::after {
+        left: -12.3% !important;
+        background-color:rgb(191, 194, 196);
+    }
+    /* .timeline-box:nth-child(2n)::after,
     .timeline-box:nth-child(2n+1)::after {
         left: -10%;
+    } */
+   
+    #timeline-divider{
+        left: 0%;
     }
-
     .nav-menu {
         display: none;
     }
 
     .bars {
         display: block;
+    }
+    #education-container{
+        margin-top: -138px;
+    }
+    .education-timeline{
+        margin-top: 84px;
+    }
+    .mt-30{
+        margin-top: 30px;
+    }
+    .educon_mt-12{
+        margin-top: 12px;
+    }
+    #education-container {
+        height: 156vh;
     }
 }
   

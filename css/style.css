@@ -124,11 +124,27 @@ body::-webkit-scrollbar {
     color: white;
     letter-spacing: 0.1rem;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
     /* margin-top: 66px; */
     font-family: amsterdam;
 }
+#resume{
+    font-size: 1.5rem;
+    border-radius: 12px;
+    margin-top: 21px;
+    font-family: poppinsmediuM;
+    background-color: transparent;
+}
+#resume:hover{
+    box-shadow: 10px 10px 10px 10px black;
+}
+#resume a {
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
 .social-icons li {
     text-decoration: none;
 }
@@ -294,7 +310,7 @@ vertical-align: middle;
 .timeline {
     position: absolute;
     width: 75%;
-    margin-top: 30vh;
+    margin-top: 21vh;
 }
 
 .timeline-box {
