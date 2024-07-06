@@ -30,6 +30,10 @@ img {
         font-size: 14px;
     }
 
+    #social-name-container{
+        margin-top: 66px;
+    }
+
     .section-heading {
         padding: 0.75rem;
     }
@@ -39,6 +43,9 @@ img {
     @keyframes animation {
         0%  { margin-left: -12rem; }
         100% { margin-left: -3.5rem; }
+    }
+    #profile-image {
+        margin-top: -12vh !important;
     }
 
     #about {
