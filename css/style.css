@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
     background-image: url("../images/BG.png");
     background-repeat: no-repeat;
     opacity: 0.8;
-    height: 66vh;
+    height: 93vh;
     margin:0px ;
     padding-top: 1.2rem;
     background-position: center;
@@ -188,10 +188,8 @@ section:nth-child(2n+1){
     height: 14rem;
     width: 14rem;
     margin:auto;
-    margin-top: -17vh;
-     border:1px solid black;
-    
- }
+    margin-top: -30vh;
+}
  #profile-image img{
     height: 100%;
     width: 100%;  
