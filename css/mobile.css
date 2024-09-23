@@ -45,7 +45,11 @@ img {
         100% { margin-left: -3.5rem; }
     }
     #profile-image {
-        margin-top: -12vh !important;
+        margin-top: -40vh !important;
+    }
+    #profile-image img {
+        width: 75%;
+        height: 75%;
     }
 
     #about {
