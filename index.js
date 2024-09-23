@@ -91,9 +91,10 @@ window.addEventListener("scroll", checkScroll);
 window.addEventListener("load", checkScroll);
 
 
+function redirect (){
+ window.location.href = "http://chatgpt.com/"
 
-
-
+}
 
 
 
