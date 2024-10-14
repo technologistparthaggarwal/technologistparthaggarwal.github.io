@@ -146,6 +146,7 @@ img {
     }
     #education-container{
         margin-top: -138px;
+        height: 120vh;
     }
     .education-timeline{
         margin-top: 84px;
@@ -156,9 +157,7 @@ img {
     .educon_mt-12{
         margin-top: 12px;
     }
-    #education-container {
-        height: 156vh;
-    }
+   
 }
   
 
