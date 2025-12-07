@@ -107,7 +107,7 @@ document.getElementById("contact-form").addEventListener('submit', function(even
 
    btn.value = 'Sending...';
 
-   const serviceID = 'STLkCaRb7JnC5hHuP';
+   const serviceID = 'service_3liklme';
    const templateID = 'template_qpxs3ue';
 
    emailjs.sendForm(serviceID, templateID, this)
